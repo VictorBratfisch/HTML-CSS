@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.esq img{
+    width: 200px;
+}
+.esq{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.dir{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.dir img{
+    width: 30px;
+}
+.dir button{
+    border: solid;
+    border-radius: 20px;
+    background-color: rgb(1, 221, 221);
+    color: white;
+    height: 30px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    background-color: rgb(233,232,232);
+}
+img{
+    width: 700px;
+}
+.conteudo{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.texto{
+    flex-direction: column;
+    display: flex;
+    margin-left: 30px;
+}
+h1{
+    font-size: 58px;
+}
+.botao button{
+    background-color: #253A44;
+    color:white;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    border: transparent;
+    font-weight: bold;
+}
+.texto p{
+    font-size: 24px;
+}
+.metod{
+    font-weight: bold;
+    font-size: 26px;
+}
+.logo{
+    width: 220px;
+    border-right: 2px solid;
+    border-color: rgb(228, 228, 228);
+}
