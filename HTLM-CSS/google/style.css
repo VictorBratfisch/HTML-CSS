@@ -1,0 +1,44 @@
+@font-face {font-family: fontgoogle; src: url(./Product\ Sans\ Regular.ttf);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 7px;
+    height: 10px;
+}
+.icones{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 17px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+header p{
+    font-size: 16px;
+}
+header img{
+    width: 25px;
+}
+
+.google{
+    font-size: 100px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+body input{
+    border: solid;
+    border-radius: 1cm;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center; 
+}

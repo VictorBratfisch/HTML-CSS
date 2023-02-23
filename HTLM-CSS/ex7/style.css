@@ -1,0 +1,9 @@
+button{
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
