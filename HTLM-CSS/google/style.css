@@ -7,7 +7,7 @@
 }
 header{
     padding: 7px;
-    height: 10px;
+    height: 100%;
 }
 .icones{
     display: flex;
@@ -23,22 +23,82 @@ header p{
 header img{
     width: 25px;
 }
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    gap: 20px;
+}
 
 .google{
     font-size: 100px;
-    height: 600px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
 }
-body input{
+
+.caixa{
     border: solid;
-    border-radius: 1cm;
-    width: 300px;
+    border-radius: 25px;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    gap: 10px;
+}
+.caixa img{
+    width: 20px;
+}
+.caixa input{
+    width: 250px;
+    border: transparent;
+    outline: none;
+    height: 100%;
+}
+.botao{
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    border: transparent;
+}
+.botao button{
+    background-color: whitesmoke;
+    border: transparent;
+    height: 30px;
+    color: black;
+}
+footer{
+    height: 100%;
+    gap: 30px;
+    bottom: 0;
+}
+.conjunto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border-top: 1px solid;
+    border-color: rgb(170, 170, 170);
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+}
+
+.Brasil{
     height: 30px;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: center; 
+    justify-content: left;
+    background-color: rgb(219, 219, 219);
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    width: 5px;
 }
