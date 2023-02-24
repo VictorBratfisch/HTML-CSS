@@ -47,6 +47,9 @@ img{
     align-items: center;
     display: flex;
 }
+.imagem2 img{
+     width: 0px;
+}
 .texto{
     flex-direction: column;
     display: flex;
@@ -58,7 +61,7 @@ h1{
 .botao button{
     background-color: #253A44;
     color:white;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 150px;
     height: 50px;
     border: transparent;
@@ -75,4 +78,32 @@ h1{
     width: 220px;
     border-right: 2px solid;
     border-color: rgb(228, 228, 228);
+}
+
+@media screen and (max-width: 750px) {  
+  .imagem img{
+        width: 0px;
+    }
+    .imagem2 img{
+        width:100%;
+    }
+    .esq p{
+        font-size: 0px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .dir button{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .dir button{
+        font-size: 5px;
+    }
 }
