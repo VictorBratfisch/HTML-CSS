@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>dev.finances</title>
+  </head>
+  <body>
+    <header>
+      <h1>dev.finance$</h1>
+    </header>
+    <div class="caixas">
+      <div class="entrada">
+        <div class="entrada-cima">
+          <h2>Entradas</h2>
+          <img src="/site-financias/images/seta-para-cima.png" alt="" />
+        </div>
+        <div class="numero-entrada">
+          <p id="num-entrada">dado</p>
+        </div>
+      </div>
+
+      <div class="saida">
+        <div class="saida-cima">
+          <h2>Saídas</h2>
+          <img src="/site-financias/images/baixa.png" alt="" />
+        </div>
+        <div class="numero-saida">
+          <p id="num-saida">dado</p>
+        </div>
+      </div>
+
+      <div class="total">
+        <div class="total-cima">
+          <h2>Total</h2>
+          <img src="/site-financias/images/cifrao.png" alt="" />
+        </div>
+        <div class="numero-total">
+          <p id="num-total">dado</p>
+        </div>
+      </div>
+    </div>
+    <div class="inserir">
+      <input type="number" placeholder="Descrição" />
+      <input type="number" placeholder="Valor" />
+      <input type="date" />
+      <button>Adicionar</button>
+    </div>
+    <main>
+      <table class="tabela">
+        <thead>
+          <tr class="linha">
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Data</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="linha">
+            <th>dado</th>
+            <th>dado</th>
+            <th>dado</th>
+            <th><img src="images/remover.png" alt="" /></th>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
