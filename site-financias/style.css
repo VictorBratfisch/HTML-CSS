@@ -58,7 +58,7 @@ header h1{
 }
 .total{
     background-color: rgb(14, 192, 14);
-    color: white;
+    color: rgb(0, 0, 0);
     width: 300px;
     height: 100px;
     border-radius: 2px;
@@ -160,4 +160,10 @@ td{
 main{
     display: flex;
     justify-content: center;
+}
+.numero-entrada p{
+    color: rgb(14, 192, 14);
+}
+.numero-saida p{
+    color: red;
 }
