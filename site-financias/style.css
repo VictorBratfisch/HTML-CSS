@@ -29,6 +29,7 @@ header h1{
     width: 100vw;
     height: 50px;
     margin-bottom: 60px;
+    gap: 10px;
 }
 .caixas p{
     text-align: justify;
@@ -112,10 +113,9 @@ header h1{
 }
 .inserir{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
-    width: 40vw;
-    margin-left: 80px;
+    width: 70vw;
     margin-bottom: 50px;
 }
 .inserir button{
@@ -128,7 +128,7 @@ header h1{
 .inserir input{
     border: transparent;
     font-weight: bold;
-    padding: 4px;  
+    padding: 4px;
 }
 .inserir button:hover{
     color: rgb(8, 219, 8);
@@ -166,4 +166,24 @@ main{
 }
 .numero-saida p{
     color: red;
+}
+
+@media screen and (max-width:770px) {
+    .caixas{
+       flex-direction: column;
+       padding-top: 100px;
+    }
+    .inserir{
+        flex-direction: column;
+        padding-top: 100px;
+        width: 50%;
+        align-items: center;
+        gap: 30px;
+        margin:0;
+    }
+    .form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
