@@ -153,6 +153,10 @@ th{
     background-color: rgb(255, 255, 255);
     height: 50px;
 }
+td{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
 main{
     display: flex;
     justify-content: center;

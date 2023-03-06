@@ -19,7 +19,7 @@
           <img src="/site-financias/images/seta-para-cima.png" alt="" />
         </div>
         <div class="numero-entrada">
-          <p id="num-entrada">dado</p>
+          <p id="num-entrada"></p>
         </div>
       </div>
 
@@ -29,7 +29,7 @@
           <img src="/site-financias/images/baixa.png" alt="" />
         </div>
         <div class="numero-saida">
-          <p id="num-saida">dado</p>
+          <p id="num-saida"></p>
         </div>
       </div>
 
@@ -39,15 +39,15 @@
           <img src="/site-financias/images/cifrao.png" alt="" />
         </div>
         <div class="numero-total">
-          <p id="num-total">dado</p>
+          <p id="num-total"></p>
         </div>
       </div>
     </div>
     <div class="inserir">
-      <input type="number" placeholder="Descrição" />
-      <input type="number" placeholder="Valor" />
-      <input type="date" />
-      <button>Adicionar</button>
+      <input type="text" placeholder="Descrição" id="descricao" />
+      <input type="number" placeholder="Valor" id="valor" />
+      <input type="date" id="data" />
+      <button id="adicionar" onclick="adicionarTransacao()">Adicionar</button>
     </div>
     <main>
       <table class="tabela">
@@ -56,17 +56,10 @@
             <th>Descrição</th>
             <th>Valor</th>
             <th>Data</th>
-            <th></th>
+            <th>Deletar</th>
           </tr>
         </thead>
-        <tbody>
-          <tr class="linha">
-            <th>dado</th>
-            <th>dado</th>
-            <th>dado</th>
-            <th><img src="images/remover.png" alt="" /></th>
-          </tr>
-        </tbody>
+        <tbody id="tbody"></tbody>
       </table>
     </main>
   </body>
